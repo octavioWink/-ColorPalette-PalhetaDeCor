@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.color {
+    display: flex;
+    width: 20%;
+    border: 0.2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    position: fixed;
+    top: 750px;
+    left: 47%;
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 22px;
+    padding: 15px;
+    width: 130px;
+    border: none;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.04rem 1.04rem 0 rgba(0, 0, 0, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.20);
+}
+
+#txt-color-1 {
+    font-size: 25px;
+}
+
+#txt-color-2 {
+    font-size: 25px;
+}
+
+#txt-color-3 {
+    font-size: 25px;
+}
+
+#txt-color-4 {
+    font-size: 25px;
+}
+
+#txt-color-5 {
+    font-size: 25px;
+}
